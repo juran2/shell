@@ -1,0 +1,19 @@
+以下传入参数都是小写！
+repalce.sh:
+	刚从服务器check下来的项目，替换成自己想要的项目。包括文件名、cpp名、cpp里的关键字。
+	放置目录：根目录。
+	用法：./replace.sh  xxx    xxx   yyy
+	         arg1:操作项目名 arg2：原文件夹名   arg3：新文件夹名
+	注意：例如替换nn为fqzs，会把channel替换成chafqzsel
+creat_file.sh:
+	自动生成makefile.am里面的数据。
+	放置目录：放在应用项目src目录下。
+	用法：./creat_file.sh
+	注意：inteface和world_scripts目录下必须没有和项目不相关的文件夹。
+svn_commit.sh:
+	自动提交代码。
+	放置目录：根目录。
+	用法：./svn_commit  xxx xxx zzz
+	arg1：xxx 项目名字 arg2：xxx文件夹名字 arg3：zzz 备注
+	注意：自己必须至少提交一次后才能使用这个，还有提交时都是以楠哥的管理员名义roach提交的。
+	
