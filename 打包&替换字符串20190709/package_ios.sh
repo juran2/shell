@@ -13,3 +13,4 @@ echo -e \\033[32m"==========archive successed======" \\033[0m
 xcodebuild -exportArchive -archivePath build/HBuilder.xcarchive -exportPath build -exportOptionsPlist export.plist
 echo -e \\033[32m"===========export successed=======" \\033[0m
 
+#made by juran
